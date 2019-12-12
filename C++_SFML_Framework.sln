@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Snake", "Snake\Snake.vcxproj", "{5A3CF74C-58DC-467A-B0BB-7991FA500F66}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D5E14D70-6804-47D9-A3B2-9E7B6EE6F829} = {D5E14D70-6804-47D9-A3B2-9E7B6EE6F829}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "_Framework_SFML", "_Framework_SFML\_Framework_SFML.vcxproj", "{D5E14D70-6804-47D9-A3B2-9E7B6EE6F829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A3CF74C-58DC-467A-B0BB-7991FA500F66}.Debug|x64.ActiveCfg = Debug|x64
+		{5A3CF74C-58DC-467A-B0BB-7991FA500F66}.Debug|x64.Build.0 = Debug|x64
+		{5A3CF74C-58DC-467A-B0BB-7991FA500F66}.Release|x64.ActiveCfg = Release|x64
+		{5A3CF74C-58DC-467A-B0BB-7991FA500F66}.Release|x64.Build.0 = Release|x64
+		{D5E14D70-6804-47D9-A3B2-9E7B6EE6F829}.Debug|x64.ActiveCfg = Debug|x64
+		{D5E14D70-6804-47D9-A3B2-9E7B6EE6F829}.Debug|x64.Build.0 = Debug|x64
+		{D5E14D70-6804-47D9-A3B2-9E7B6EE6F829}.Release|x64.ActiveCfg = Release|x64
+		{D5E14D70-6804-47D9-A3B2-9E7B6EE6F829}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA338833-0FD0-48D9-9A04-390A5DE2BABF}
+	EndGlobalSection
+EndGlobal
